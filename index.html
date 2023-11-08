@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab3Shkaruba</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form class="backg" action="/index.html" method="get" name="Lab3Shkaruba">
+    <header>
+        <img class="stepfirst" src="./img/1.svg" alt="">
+        <p class="p_step">Shipping</p>
+        <div class="green_line"></div>
+        <img class="step" src="./img/2.svg" alt="">
+        <p class="p_step">Payment</p>
+        <div class="grey_line"></div>
+        <img class="step color_svg" src="./img/3.svg" alt="">
+        <p class="p_step">Confirmation</p>
+    </header>
+    <h1 >Payment details</h1>
+    <hr class="line">
+    <fieldset class="div_mar_left">
+        <legend>Credit card information</legend>
+        <p class="plegend">Name on card</p>
+        <input type="text" class="inputtext" required>
+            <div class="numaccept">
+                <div>
+                <p>Credit card number</p>
+                <input type="text"class="inputtext" required>
+            </div>
+            <div class="rightaccept">
+                <p>Accepted cards</p>
+                <div>
+                <a href="https://www.visa.com.ua/"><img class="cards" src="./img/visa.png" alt=""></a>
+                <a href="https://www.mastercard.ua/"><img class="cards marg_lft_5px" src="./img/mastercard.png" alt=""></a>
+                <a href="https://www.americanexpress.com/"><img class="cards marg_lft_5px" src="./img/AmericanExpress.svg " alt=""></a>
+                <a href="https://www.discoverglobalnetwork.com/"><img class="cards marg_lft_5px" src="./img/discover.png" alt=""></a>
+                </div>
+            </div>
+            </div>
+            <div class="securityflex">
+                <div>
+            <p>Security code<img class="vopros" src="./img/4.svg" alt=""></p>
+            <input type="text" class="min_input" required>
+        </div>
+                <div class="securityflexright">
+            <p>Expiration date</p>
+            <select name="Month" placeholder="text" required>
+                <option value disabled selected>Month</option>
+                <option value="month1">Січень</option>
+                <option value="month2">Лютий</option>
+                <option value="month3">Березень</option>
+                <option value="month4">Квітень</option>
+                <option value="month5">Травень</option>
+                <option value="month6">Червень</option>
+                <option value="month7">Липень</option>
+                <option value="month8">Серпень</option>
+                <option value="month9">Вересень</option>
+                <option value="month10">Жовтень</option>
+                <option value="month11">Листопад</option>
+                <option value="month12">Грудень</option>
+              </select>
+              <select name="Year" required>
+                <option value disabled selected>Year</option>
+                <option value="year1">2015</option>
+                <option value="year2">2016</option>
+                <option value="year3">2017</option>
+                <option value="year4">2018</option>
+                <option value="year5">2019</option>
+                <option value="year6">2020</option>
+                <option value="year7">2021</option>
+                <option value="year8">2022</option>
+                <option value="year9">2023</option>
+                <option value="year10">2024</option>
+                <option value="year11">2025</option>
+                <option value="year12">2026</option>
+                <option value="year13">2027</option>
+                <option value="year14">2028</option>
+                <option value="year15">2029</option>
+                <option value="year16">2030</option>
+              </select>
+                </div>
+        </div>
+    </fieldset>
+    <fieldset class="div_mar_left marg_top_60">
+        <legend>Billing information</legend>
+        <p class="plegend">First name</p>
+        <input type="text" class="inputtext" required>
+        <p>Second name</p>
+        <input type="text"class="inputtext" required>
+        <p>Billing addres</p>
+        <input type="text"class="inputtext" required>
+        <p>City</p>
+        <input type="text"class="inputtext" required>
+        <div class="zipcouflex">
+        <div class="col">
+        <p>Zip</p>
+        <input type="text" class="min_input" required>
+     </div>
+        <div class="countryright">
+        <p>Country</p>
+        <input class="col2" type="text" required>
+        </div>
+    </div>
+        <button type="submit"> Submit payment</button>
+    </fieldset>
+    </form>
+</body>
+</html>
